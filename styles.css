@@ -7,12 +7,16 @@
 .dice {
   text-align: center;
   display: inline-block;
+  margin-top:17px;
 }
 
 body {
   background-color: #393E46;
 } 
-
+.refresh{
+  
+  margin: -37px 0px 0px 0px;
+}
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
@@ -22,7 +26,18 @@ h1 {
   display:inline-block;
   font-weight:bolder;
 }
-
+.reb{
+  background: #e3e4e4;
+  color: #000;
+  font-size: 19px;
+  font-family: 'Courgette', cursive;
+  border-radius: 27px;
+  display: block;
+  margin: 0px auto;
+  padding: 7px 7px;
+  box-shadow: 1px 5px black;
+  border: 1px solid black;
+}
 .flag1{
   display: none;
   width: 12%;
@@ -49,7 +64,7 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 3%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
